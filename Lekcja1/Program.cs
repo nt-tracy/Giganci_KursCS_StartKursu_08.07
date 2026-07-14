@@ -4,13 +4,18 @@ class Program
 {
     static void Main(string[] args)
     {
-        //komentarz jednolinijkowy
+        //cd NazwaFolderu - przechodzimy do kolejnego folderu
+        //cd .. - cofamy się o jeden folder 
+
+        Console.Clear();
+
+        //to jest komentarz jednolinijkowy
 
         /*
+            to jest komentarz wielolinijkowy
             jedna linia
             druga linia
             etc...
-        
         */
 
         /*
@@ -45,6 +50,9 @@ class Program
         - Console.WriteLine() ma znak nowej linii
         - Console.Write() nie dodaje znaku nowej linii na końcu 
         */
+
+        Console.ReadKey(); 
+        //Console.ReadKey() czyta z konsoli jeden znak, czyli jak dodamy na końcu, to zamknie nam program po nakliknięciu jednego klawisza z klawiatury
     }
 }
  
