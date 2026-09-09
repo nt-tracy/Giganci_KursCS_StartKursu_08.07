@@ -90,7 +90,8 @@ class Program
 
         Console.WriteLine($"Typ danych w napisie: {napis[0].GetType()}");
 
-
+        //Zadanie dodatkowe: Utwórz tablicę 12 losowych liczb
+        //Zadanie dodatkowe 2: Oblicz sumę elementów w tablicy
 
     }
 }
